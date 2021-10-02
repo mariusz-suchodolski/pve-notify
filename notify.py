@@ -9,5 +9,5 @@ mail = mailparser.parse_from_string(userIn)
 print(mail.text_plain[0])
 
 apobj = apprise.Apprise()
-apobj.add('')
+apobj.add('###APPRISE COMPATIBLE URL###')
 apobj.notify(body=mail.text_plain[0],title=mail.subject)
