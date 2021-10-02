@@ -9,10 +9,13 @@ Notify Apprise-compatible providers from Proxmox
 
 #### Edit the script to include your desired notification service
 
+```editor /usr/bin/notify-apprise```
+
 #### Install Python 3 and required dependencies 
 
-```root@pve:~# apt install python3 python3-pip```
-```root@pve:~# pip install mail-parser apprise```
+```apt install python3 python3-pip```
+
+```pip install mail-parser apprise```
 
 #### Backup and update your .forward file
 
